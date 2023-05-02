@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8>
+    <meta name="viewport" content="width"=device-width, initial-scale=1">
+    <title>Pete's Pizza Delivery</title>
+  </head>
+  <body>
+    <form>
+      <h1 style="text-align: center;">Pete's Pizza Delivery</h1>
+      <h2 style="text-align: center;">Online Order Form</h2>
+      <Form method="post action=">
+      <table>
+        <tr>
+          <td style="text-align: right;">
+            <label for="name">*Name: </label>
+          </td>
+          <td><input type="text" name="name" id="name" required>
+          </td>
+          <td style="text-align: right;">
+           <label for="tel">*Tel: </label>
+          </td>
+          <td><input type="tel" name="tel" id="tel" required>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">
+            <label for="address">*Address: </label>
+         </td>
+          <td><input type="text" name="address" id="address" required>
+          </td>
+          <td style="text-align: right;">
+            <label for="email">*Email: </label>
+          </td>
+          <td><input type="email" name="email" id="email" required>
+          </td>
+        <tr>
+          <td style="text-align: right;">
+            <label for="town/city">*Town/city: </label>
+          </td>
+          <td><input type="text" name="town/city" id="town/city" required>
+          </td>
+        </tr>
+      <tr>
+        <td style="text-align: right;">
+         <label for="postcode">*Postcode: </label>
+        </td>
+        <td><input type="text" name="postcode" id="postcode" required>
+        </td>
+      </tr>
+    </table>
+
+    <p style="text-align: center;">* required fields</p>
+
+    <table>
+      <tr>
+        <td>
+          <h3>Topping</h3>
+          <label><input type="radio" name="topping" id="margherita" required  value="margherita"> Margherita</label><br>
+          <label><input type="radio" name="topping" id="four seasons" required value="four seasons"> Four Seasons</label><br>
+          <label><input type="radio" name="topping" id="meat feast" required value="meat feast"> Meat Feast</label><br><br>
+        </td>
+        <td>
+          <h3>Size</h3>
+          <label><input type="radio" name="topping" id="margherita" required value="margherita"> Margherita</label><br>
+          <label><input type="radio" name="topping" id="four seasons" required value="four seasons"> Four Seasons</label><br>
+          <label><input type="radio" name="topping" id="meat feast" required value="meat feast"> Meat Feast</label><br><br>
+        </td>
+        <td>
+          <h3>Extras</h3>
+          <label><input type="checkbox" name="extras" id="mushrooms" required value="mushrooms"> Mushrooms</label><br>
+          <label><input type="checkbox" name="extras" id="green peppers" required value="green peppers"> Green peppers </label><br>
+          <label><input type="checkbox" name="extras" id="anchovies" required   value="anchovies"> Anchovies </label><br>
+          <label><input type="checkbox" name="extras" id="extra cheese" required value="extra cheese"> Extra cheese</label>
+        </td>
+      </tr>
+    </table>
+      <br>
+    <table>
+      <tr>
+        <td style="text-align: right;">
+          <label for="delivery">Preferred delivery time: </label>
+        </td>
+        <td>
+          <input type="time" min="11:00" max="21:00" step="800" name="delivery" id="delivery" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="text-align: right;">
+          <label for="instructions">Delivery instrucxtions: </label>
+        </td>
+        <td>
+          <textarea name="instrucxtion=" id="instruction maxlength=800"></textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" style="text-align: center;"> <br>
+          <button>Submit order</button>
+        </td>
+        </tr>
+      </table>
+    </form>
+  </body> 
+</html>
+
+
+      
